@@ -61,7 +61,7 @@ def get_train_val_pathes(config):
 
     train_paths = filter_by_condition(filtered_paths, ['train'])
     test_paths = filter_by_condition(filtered_paths, ['test'])
-    print(test_paths)
+    print('Here is test path (debug sell)', test_paths)
 
     if config.test_dataset_list[0] != 'all':
         test_paths = filter_by_condition(test_paths, config.test_dataset_list)
