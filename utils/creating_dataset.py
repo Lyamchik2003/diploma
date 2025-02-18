@@ -168,7 +168,6 @@ def get_datasets(config: DataConfig, transform=None, only_test=False):
     print(f"Number of trainining sessions: {len(train_dataset.datasets)}")
     print(f"Number of validation sessions: {len(val_dataset.datasets)}")
     print(f"Size of the input {train_dataset[0][0].shape} || Size of the output {train_dataset[0][1].shape}")
-    print("HELOO BLIAT")
 
     return train_dataset, val_dataset
 
